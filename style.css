@@ -29,7 +29,7 @@ input:focus{
 }
 
 .contayner {
-    width: 1300px;
+    width: 1290px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
@@ -181,7 +181,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
     top: 7px;
-    left: 349px
+    left: 343px
 }
 
 
@@ -252,14 +252,15 @@ text-align: center;
    padding-top: 33px;
    padding-bottom: 42px;
    border-radius: 15px;
-transition: transform 1.5s ease;
+transition: transform 1.4s ease;
  }
 
 .popular-item:hover {
     border: 2px rgba(255, 255, 255, 0.80);
 background: rgba(40, 48, 54, 0.60) url('./img/bagraund-popular.png') no-repeat;
-transform: rotate(360deg);
+/* transform: rotate(360deg); */
 /* transform: translateY(-20px); */
+transform: rotate(360deg);
 }
 
 
@@ -333,15 +334,20 @@ background: #283036;
 
 box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
 }
-.like{
+.like,
+.red-like{
     display: none;
 }
-.like.active{
+.like.active,
+.red-like.active{
     display: block;
 }
 /* .button-like.clicked path{
       fill: #FD3B41;  
 } */
+
+
+
 
 
 
@@ -425,6 +431,134 @@ margin-bottom: 56px;
     gap: 107px;
 }
 
+
+/* tools */
+
+.tools {
+padding-top: 220px;
+}
+
+.tools-box {
+    display: flex;
+}
+
+.tools-title {
+    color: rgba(255, 255, 255, 0.90);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 30px;
+}
+
+
+.tools-p {
+    width: 427px;
+color: rgba(255, 255, 255, 0.55);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 60px;
+}
+
+
+.tools-button {
+color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 16px 40px 15px 40px;
+border-radius: 8px;
+background: #FF6E30;
+margin-bottom: 270px;
+}
+
+.div-tools {
+margin-left: 197px;
+    width: 600px;
+}
+
+.tools-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.tools-item {
+  margin-bottom: 26px;
+  padding: 28px 21px 28px 22px;
+}
+
+
+.tools-item:hover {
+ border-radius: 15px;
+border: 2px rgba(255, 255, 255, 0.80);
+background: rgba(40, 48, 54, 0.60) url(./img/bagraung-tools.png) no-repeat;
+backdrop-filter: blur(25px);
+}
+
+.program-div {
+    display: flex;
+}
+
+
+
+.programs-title {
+color: rgba(255, 255, 255, 0.78);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 3px;
+}
+
+
+
+.tools-text {
+color: rgba(255, 165, 55, 0.55);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 31px;
+}
+
+
+.ipsum-text {
+color: rgba(255, 255, 255, 0.55);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 245px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+
+.procreate-button {
+color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 9px 35px;
+margin-left: 40px;
+}
+
+
+.procreate-button:hover {
+    border-radius: 8px;
+background: #FF6E30;
+}
 
 
 
