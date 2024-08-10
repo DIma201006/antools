@@ -258,8 +258,6 @@ transition: transform 1.4s ease;
 .popular-item:hover {
     border: 2px rgba(255, 255, 255, 0.80);
 background: rgba(40, 48, 54, 0.60) url('./img/bagraund-popular.png') no-repeat;
-/* transform: rotate(360deg); */
-/* transform: translateY(-20px); */
 transform: rotate(360deg);
 }
 
