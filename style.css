@@ -72,6 +72,10 @@ margin-right: 257px;
     margin-right: 150px;
 }
 
+.nav-item {
+          transition: transform 0.3s ease-in;
+}
+
 .nav-link {
 color: rgba(255, 255, 255, 0.55);
 font-family: Poppins;
@@ -81,9 +85,13 @@ font-weight: 500;
 line-height: normal;
 }
 
-/* .nav-link:hover  {
-    
-} */
+.nav-item:hover  {
+transform: translateY(-7px);
+}
+
+.nav-link:hover  {
+    color: rgba(255, 255, 255, 0.90);
+}
 
 .header-list {
     display: flex;
@@ -201,7 +209,6 @@ top: 130px;
  }
 
 
- /* popular */
 
  .popular {
     padding-top: 211px;
@@ -345,9 +352,6 @@ box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
 .red-like.active{
     display: block;
 }
-/* .button-like.clicked path{
-      fill: #FD3B41;  
-} */
 
 
 
@@ -417,6 +421,8 @@ backdrop-filter: blur(25px);
 }
 
 
+
+
 .brand-text {
 color: rgba(255, 255, 255, 0.80);
 font-family: Poppins;
@@ -436,7 +442,7 @@ margin-bottom: 56px;
 }
 
 
-/* tools */
+
 
 .tools {
 padding-top: 220px;
@@ -481,9 +487,12 @@ background: #FF6E30;
 margin-bottom: 270px;
 }
 
+.tools-button:hover {
+  background: #FF6E30;  
+}
+
 .div-tools {
 margin-left: 197px;
-    /* width: 600px; */
 }
 
 .tools-list {
@@ -498,7 +507,6 @@ margin-left: 197px;
   flex-basis: calc((100% - 50px) / 2);
   transition: transform 0.3s ease-in;
 }
-
 
 .tools-item:hover {
  border-radius: 15px;
@@ -602,7 +610,6 @@ margin-left: 40px;
 background: #FF6E30;
 }
 
-/* ronald */
 
 .ronald {
         position: relative;
@@ -666,6 +673,9 @@ letter-spacing: 0.21px;
 margin-top:128px;
 }
 
+
+
+
 .join {
     position: relative;
     padding-top: 358px;
@@ -713,7 +723,7 @@ line-height: normal;
 
 
 .join-button {
-color: #FFF;
+color: #FFF;    
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
@@ -726,7 +736,7 @@ position: absolute;
     right: 660px;
     top: 575px;
 }
-
+                  
 
 .join-form {
 text-align: center;
@@ -751,8 +761,6 @@ font-family: Poppins;
 font-size: 22px;
 font-style: normal;
 font-weight: 600;
-line-height: normal;
-
 }
 
 
@@ -763,7 +771,6 @@ font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
 margin-bottom: 20px;
 }
 
@@ -786,9 +793,9 @@ width: 260px;
     margin-right: 115px;
 }
 
+
 .contact-text {
 color: rgba(255, 255, 255, 0.55);
-
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
@@ -812,7 +819,6 @@ line-height: normal;
 
 .company-text {
     color: rgba(255, 255, 255, 0.55);
-
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
